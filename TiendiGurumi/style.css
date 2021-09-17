@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+    padding: 20px;
+    background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
+}
+.encabezado{
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: rgb(194, 223, 245);
+    color: rgb(255, 254, 251);
+    width: 98%;
+}
+.columnaizquierda{
+    float: left;
+    width: 50%;
+    padding-right: 20px
+}
+.columnaderecha{
+    float: right;
+    width: 49%;
+    padding-left: 20px;
+}
+.img{
+    background-color: rgb(236, 209, 225);
+    width: 100%;
+    padding: 20px;
+    image-resolution: 500px;
+}
+.caja1{
+    background-color: rgb(203, 203, 241);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: ghostwhite;
+}
+.caja2{
+    background-color: rgb(194, 241, 241);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.caja3{
+    background-color: thistle;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 96%;
+    color: ghostwhite;
+}
+.caja4{
+    background-color: rgb(238, 212, 245);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 96%;
+    
+
+}
+.fila:after{
+   content: ""; 
+   display: table;
+   clear: both;
+}
+.footer{
+    padding: 20px;
+    text-align: justify;
+    background: rgb(158, 158, 158);
+    margin-top: 20px;
+    width: 98%;
+}
+iframe{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
